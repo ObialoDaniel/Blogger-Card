@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* 
+@font-face {
+    font-family: "figtree";
+    src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "figtree";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: 600;
+} */
+
+body{
+    font-family: "figtree", sans-serif;
+    padding:20px;
+    border:20px;
+    border-radius: 30px;
+    font-size: 16px; 
+    text-align: center; 
+    min-height: 100vh;
+   background-color: hsl(47, 88%, 63%); 
+   font-weight: 600;
+}
+
+.container{
+    width:320px;
+    height:500px;
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    outline-style: solid;
+    outline-color:black;
+    outline-width: thin;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 8px 11px #000;
+}
+
+img {
+    border-radius: 15px;
+    width: 100%;
+}
+.card-button {
+    background-color: hsl(47, 88%, 63%); 
+    font-weight: 600;
+    border: none; 
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;    
+    margin: 20px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
+.card-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+
+.date{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+.main{
+  display: flex;
+  margin: 10px 10px;
+}
+.main h2 {
+    font-size: 18px;
+}
+.body-text{
+    margin: 10px 10px;
+    color: rgba(0,0,0,0.5);
+    text-align: left;
+    font-size: 14px;
+    
+}
+.attribution{
+    text-align: left;
+    margin: 20px 10px;
+}
+.img-box{
+    display: flex;
+    margin: 10px; 
+   
+}
+.img-box .name{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  text-align: center;
+  margin: 10px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.img-box img {
+    width: 30px;
+    height: auto;
+}
